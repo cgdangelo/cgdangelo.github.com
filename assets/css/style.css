@@ -421,7 +421,6 @@ body {
 }
 
 .posts, section.post {
-  border-bottom: 1px solid #e2e2e2;
   border-top: 1px solid #e2e2e2;
 }
 
@@ -436,14 +435,10 @@ header.author a:visited {
   color: #555;
 }
 
-a ,
-a:active ,
+a,
+a:active,
 a:visited {
   color: orangered;
-}
-
-.pagination {
-  margin-top: 15px;
 }
 
 a, a:active, a:visited {
@@ -455,4 +450,9 @@ section.post aside.disqus {
   border-top: 1px solid #e2e2e2;
   margin-top: 20px;
   padding-top: 20px;
+}
+
+article {
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 20px;
 }
