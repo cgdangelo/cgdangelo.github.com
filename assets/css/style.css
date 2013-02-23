@@ -416,19 +416,22 @@ body {
   padding: 0 40px;
 }
 
+.posts {
+  padding-bottom: 20px;
+}
+
 .posts, section.post {
   border-bottom: 1px solid #e2e2e2;
   border-top: 1px solid #e2e2e2;
-  padding-bottom: 20px;
 }
 
 header.author {
   font-size: 24px;
 }
 
-header a ,
-header a:active,
-header a:visited {
+header.author a ,
+header.author a:active,
+header.author a:visited {
   text-decoration: none;
   color: #555;
 }
@@ -443,7 +446,13 @@ a:visited {
   margin-top: 15px;
 }
 
-article a, article a:active, article a:visited {
+a, a:active, a:visited {
   text-decoration: none !important;
   color: orangered;
+}
+
+section.post aside.disqus {
+  border-top: 1px solid #e2e2e2;
+  margin-top: 20px;
+  padding-top: 20px;
 }
