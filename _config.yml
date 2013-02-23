@@ -1,0 +1,16 @@
+permalink: /:year/:month/:day/:title
+
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+auto: true
+pygments: true
+paginate: 3
+
+title : "Charles D'Angelo"
+tagline: i make things!
+author :
+  name : "Charles D'Angelo"
+  email : c.g.dangelo@gmail.com
+  github : cgdangelo
+  twitter : cgdangelo
+
+production_url : http://cgdangelo.github.com
