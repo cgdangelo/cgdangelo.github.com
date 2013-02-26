@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "I made a blog thing"
-description: ""
+description: "Sup, World?"
 category: 
 tags: []
 ---
