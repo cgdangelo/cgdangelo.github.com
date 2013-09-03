@@ -448,6 +448,10 @@ a, a:active, a:visited {
   color: orangered;
 }
 
+aside.disqus {
+    margin-top: 20px;
+}
+
 section.post aside.disqus {
   border-top: 1px solid #e2e2e2;
   margin-top: 20px;
@@ -457,4 +461,18 @@ section.post aside.disqus {
 article {
   border-bottom: 1px solid #e2e2e2;
   padding-bottom: 20px;
+}
+
+div.highlight {
+    background: #f8f8f8;
+    border: 1px solid #e2e2e2;
+    padding: 10px;
+}
+
+div.highlight pre code {
+    font-size: 14px;
+}
+
+div.highlight pre {
+    margin: 0;
 }
