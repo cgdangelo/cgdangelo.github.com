@@ -68,7 +68,7 @@ end # task :page
 
 desc "Launch preview environment"
 task :preview do
-  system "jekyll --auto --server"
+  system "jekyll server --watch"
 end # task :preview
 
 def ask(message, valid_options)
